@@ -20,6 +20,14 @@ this model on test set and print out accuracy and loss values.
 
 ### Results:
 
+Everything works as expected. The trained data was small (10 images per object), so the results were also in line with that.
+The results were also influenced by the fact that all training data was taken in a similar environment, such as light, background, etc..
+However, the end result was a functional whole. It would be easy to improve the project by adding more data and training the model more.
+
+Pictures of detecting object from live video:
+![ThumbsDownLive](/media_for_docs/ThumbsDownLive.png)
+![LetsRock](/media_for_docs/LetsRockLive.png)
+
 
 
 
@@ -28,4 +36,4 @@ Made with TensorFlow object detection.
 For labeling taken images used https://github.com/tzutalin/labelImg repository
 Script for generating Tensorflow record files is made with this sample https://github.com/nicknochnack/GenerateTFRecord/blob/main/generate_tfrecord.py
 Pretrained model i used in this project is tf2 detection zoom: SSD MobileNet V2 FPNLite 320x320
-Also used nicknochnack repositories for implementing this.
+
